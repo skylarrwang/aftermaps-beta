@@ -1,0 +1,44 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    <title>Interactive Map</title>
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />   
+{% endblock %}
+
+{% block main %}
+    <div id="map" style="width: 600px; height: 400px;"></div>
+    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script>
+        var map = L.map('map').setView([51.505, -0.09], 13);
+
+        L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors'
+        }).addTo(map);
+
+        function onMapClick(e) {
+            // Add a marker to the map at the clicked location
+            var newMarker = L.marker([e.latlng.lat, e.latlng.lng]).addTo(map);
+
+            // Send the coordinates to the Flask backend
+            fetch('/block_coordinates', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    latitude: e.latlng.lat,
+                    longitude: e.latlng.lng,
+                }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('Success:', data);
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+            });
+        }
+
+        map.on('click', onMapClick);
+    </script>
+{% endblock %}

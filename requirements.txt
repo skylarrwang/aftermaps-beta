@@ -1,0 +1,10 @@
+mysql-connector
+flask
+flask_session
+Werkzeug
+usaddress
+numpy
+pymc
+geopy
+requests
+scikit-learn

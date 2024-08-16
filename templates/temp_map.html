@@ -1,0 +1,49 @@
+{% extends "layout.html" %}
+
+{% block title %}
+  Temp Map Query
+{% endblock %}
+
+{% block main %}
+<form action="/map" method="POST">
+    <div class="container">
+      <div class="row">
+        <h4 class="text-left">Enter the road you would like to query for:</h4>
+        <text>Note: must enter exact, full road name in order to generate accurate query</text>
+      </div>
+      <div class="p-2 row">
+        <div class="p-2 col">
+          <div class="form-group d-flex align-items-start">
+            <label for="address" class="p-2">Road</label>
+            <input type="text" class="form-control" name="road" id="road" placeholder="E.g. Prospect Street">
+          </div>
+        </div>
+        <div class="p-2 col">
+          <div class="form-group d-flex align-items-start">
+            <label for="city" class="p-2">Zip</label>
+            <input type="text" class="form-control" name="zip" id="zip" placeholder="E.g. 06511">
+          </div>
+        </div>
+      </div>
+      <!--Submit button-->
+      <div class="form-row">
+        <div class="center">
+          <button type="submit" class="btn btn-primary" id="submitButton">Submit Form</button>
+        </div>
+      </div>
+    </div>
+</form>
+
+  {% if message %}
+    <div class="container p-4">
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <div class="alert alert-warning" role="alert">
+            {{ message }}
+          </div>
+        </div>
+      </div>
+    </div>
+  {% endif %}
+
+{% endblock %}

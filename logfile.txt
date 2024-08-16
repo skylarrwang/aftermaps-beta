@@ -1,0 +1,35 @@
+You've reached query: ('skylar', 'pbkdf2:sha256:600000$lQ$b360d9b3365c9f6b81cc8408d5a4242dfd60d4948626ee3f7781f6397ee13a70')You've reached query: ('skylar', 'pbkdf2:sha256:600000$qs$31ff060b35d175a9db09fc6f992a845f95f6a1ccc5c906b2cb84b74f08be6f71')Success!1146 (42S02): Table 'aftermaps.road_seg' doesn't exist1146 (42S02): Table 'aftermaps.road_seg' doesn't existYou've reached query: ('pratiksha', 'pbkdf2:sha256:600000$NL$27ac8c76fbcae38e61e89ad196763898841b3e890d6dae1b7a775ea566cfd126')Success!You've reached query: ('kevin', 'pbkdf2:sha256:600000$o3$c0eb3df3b8fd3025ad7b2a048e711a4f63f1f9ed1cb1447d50709d8a47cce6d1')Success!You've reached query: ('alan', 'pbkdf2:sha256:600000$5q$d0b5c8fd2e5a80633a08d372425815736c6f039e4168f9fdea6b104c300b4c52')Success!You've reached query: ('pratiksha!2', 'pbkdf2:sha256:600000$6y$d6b52356cd7d20624918429def3d9da275f27205f6adbaf2943b7de6101273de')Success!You've reached query: ('mofeed', 'pbkdf2:sha256:600000$hy$ebfd77e5e6fc0d57391af2cc0ae1a57cdf7cb22904896aee9b3a32e6270f11e7')Success!1146 (42S02): Table 'aftermaps.road_seg' doesn't existcurr coord is: 41.3138944,-72.9317376 
+ report coord: 24.55359604369888, -81.78316480081763 
+ passability: 33lat and long are: 24.55359604369888, -81.78316480081763curr coord is: , 
+ report coord: ,  
+ passability: 50curr coord is: , 
+ report coord: ,  
+ passability: 50curr coord is: , 
+ report coord: ,  
+ passability: 50curr coord is: , 
+ report coord: ,  
+ passability: 28curr coord is: , 
+ report coord: ,  
+ passability: 28curr coord is: , 
+ report coord: ,  
+ passability: 18curr coord is: , 
+ report coord: ,  
+ passability: 18curr coord is: , 
+ report coord: ,  
+ passability: 18curr coord is: , 
+ report coord: ,  
+ passability: 18curr coord is: , 
+ report coord: ,  
+ passability: 501146 (42S02): Table 'aftermaps.road_seg' doesn't exist1146 (42S02): Table 'aftermaps.road_seg' doesn't existYou've reached query: ('Pratiksha12!', 'pbkdf2:sha256:600000$iy$1806ff982db740272e9c17912c85bb7d95e67c0b3fa0de6963a17dc32adb3644')Success!1146 (42S02): Table 'aftermaps.road_seg' doesn't exist1146 (42S02): Table 'aftermaps.road_seg' doesn't exist1146 (42S02): Table 'aftermaps.road_seg' doesn't existYou've reached query: ('mason12A!', 'pbkdf2:sha256:600000$87$1e80d4eb385a041edf23f1928bf28899ea6238974b6422e17b1ec5b88464c40b')Success!curr coord is: 44.8715975,-93.3373776 
+ report coord: 41.30672026940406, -72.93249063913117 
+ passability: 77lat and long are: 41.30672026940406, -72.93249063913117DISTANCE IS: 0.10495689983941339curr coord is: 44.8715957,-93.33739 
+ report coord: 41.30598306833157, -72.92565086471627 
+ passability: 95lat and long are: 41.30598306833157, -72.92565086471627DISTANCE IS: 0.18914679522895392You've reached query: ('4',)Success!You've reached query: ('4', 0.28, 18, '-93.33739', '44.8715957', '-72.92565086471627', '41.30598306833157', 5575298.263103934, '95')Success!You've reached query: ('4', 0.22, 0.28)Success!You've reached query: (0.28, '4')Success!curr coord is: 44.8715957,-93.33739 
+ report coord: 41.30598306833157, -72.92565086471627 
+ passability: 95lat and long are: 41.30598306833157, -72.92565086471627DISTANCE IS: 0.18914679522895392You've reached query: ('4',)Success!You've reached query: ('4', 0.24, 18, '-93.33739', '44.8715957', '-72.92565086471627', '41.30598306833157', 5575298.263103934, '95')Success!You've reached query: ('4', 0.28, 0.24)Success!You've reached query: (0.24, '4')Success!You've reached query: (18, 15.33, 0.6, '4')Success!You've reached query: (0.6, 18)Success!curr coord is: 44.871622,-93.3373863 
+ report coord: 41.31013734813021, -72.92849951211701 
+ passability: 88lat and long are: 41.31013734813021, -72.92849951211701DISTANCE IS: 0.01374419340207445You've reached query: ('4',)Success!You've reached query: ('4', 0.24, 45, '-93.3373863', '44.871622', '-72.92849951211701', '41.31013734813021', 5574040.005185028, '88')Success!You've reached query: ('4', 0.24, 0.24)Success!You've reached query: (0.24, '4')Success!You've reached query: (45, 50.0, 0.33, '4')Success!You've reached query: (0.33, 45)Success!curr coord is: 44.8716295,-93.3373845 
+ report coord: 41.306862042822765, -72.93281250421296 
+ passability: 68lat and long are: 41.306862042822765, -72.93281250421296DISTANCE IS: 0.13317960688252825You've reached query: ('4',)Success!You've reached query: ('4', 0.17, 7, '-93.3373845', '44.8716295', '-72.93281250421296', '41.306862042822765', 5573346.430558616, '68')Success!You've reached query: ('4', 0.24, 0.17)Success!You've reached query: (0.17, '4')Success!You've reached query: (7, 16.56, 0.5, '4')Success!You've reached query: (0.5, 7)Success!You've reached query: ('skyyylar', 'pbkdf2:sha256:600000$kd$814df7a0adb8b56ee14428029f1cac95b8df93abe488e61d5153357b3c8a3765')Success!You've reached query: ('cpsc419', 'pbkdf2:sha256:600000$DI$118f8c6c75cf7ab228f18c2869c519f94480258aa9476f5cfee57854ded584cf')Success!curr coord is: 44.8716227,-93.3373889 
+ report coord: 41.309697193463194, -72.92778887133426 
+ passability: 87lat and long are: 41.309697193463194, -72.92778887133426DISTANCE IS: 0.00048390629505791694You've reached query: ('13',)Success!You've reached query: ('13', 45, '-93.3373889', '44.8716227', '-72.92778887133426', '41.309697193463194', 5574279.072531314, '87')Success!You've reached query: (45, 0.33, 0.5, '13')Success!You've reached query: (0.5, 45)Success!You've reached query: ('test3', 'pbkdf2:sha256:600000$dT$93039bbfb717d12d9660fab109a90b98f87eaa2e60e775ad787f72b479f07a16')Success!
