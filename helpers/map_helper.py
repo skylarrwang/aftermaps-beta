@@ -1,6 +1,5 @@
 """Helps with map output"""
 import requests
-API_KEY = "AIzaSyBBXtjSysC3I-B05t05wMs6UVfsHpfEzAU"
 
 def get_placeid(lat, long):
     """gets placee's id"""
